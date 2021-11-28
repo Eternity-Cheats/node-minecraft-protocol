@@ -1,5 +1,47 @@
 # History
 
+## 1.28.0
+* Fixed TypeScript error TS2769 when authenticating with mojang (#922) (@liquiddevelopmentnet)
+* Update prismarine-auth usage (#923) (@extremeheat)
+* types(Client): fix events (#918) (@muchnameless and Robert Hartmann)  
+* add default for authTitle (#920) (@U5B)
+* Update ping function return type and make callback optional (#909) (@ShayBox)
+* Fixed typo's (#915) (@OscarNOW)
+* Add the ability to send a fake hostname in set_protocol (#913) (@GhqstMC and u9g)
+
+## 1.27.2
+
+* try again to enable prismarine-auth
+
+## 1.27.1
+
+* revert prismarine-auth usage for now (see https://github.com/panva/jose/issues/307)
+
+## 1.27.0
+
+* use prismarine-auth
+
+## 1.26.6
+
+* Lazily generate serverKey
+* Make all events have promiselike returns for async
+
+## 1.26.5
+
+* update Online Mode Exceptions
+
+## 1.26.4
+
+* add once to typescript types for all events
+
+## 1.26.3
+
+* fix typescript types
+
+## 1.26.2
+
+* fix typescript types
+
 ## 1.26.1
 
 * temporarily revert prismarine-auth
