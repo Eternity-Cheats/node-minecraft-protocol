@@ -1,6 +1,23 @@
 # History
 
+## 1.30.0
+
+* add reasons for client.end() & fix issues (@U5B)
+
+## 1.29.1
+
+* Remove entitlement check in microsoftAuth (#929)
+
+## 1.29.0
+
+* 1.18.0 support
+
+## 1.28.1
+
+* Fix microsoft auth error condition handling (@extremeheat)
+
 ## 1.28.0
+
 * Fixed TypeScript error TS2769 when authenticating with mojang (#922) (@liquiddevelopmentnet)
 * Update prismarine-auth usage (#923) (@extremeheat)
 * types(Client): fix events (#918) (@muchnameless and Robert Hartmann)  
